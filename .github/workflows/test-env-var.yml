@@ -14,3 +14,4 @@ jobs:
         run: |
           echo 123
           echo $DO_NO_TRACK
+          echo var.ENVCONTEXT_VAR ${{ vars.ENV_CONTEXT_VAR }}
