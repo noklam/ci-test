@@ -5,6 +5,7 @@ on:
 jobs:
   bash-script:
     runs-on: ubuntu-latest
+    environment: DO_NOT_TRACK
 
     steps:
       - name: Checkout code
