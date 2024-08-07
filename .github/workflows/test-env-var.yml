@@ -2,6 +2,8 @@ name: Bash Script
 on:
   workflow_dispatch:
 
+env:
+  DO_NOT_TRACK: 1
 jobs:
   bash-script:
     runs-on: ubuntu-latest
@@ -15,4 +17,4 @@ jobs:
         run: |
           echo 123
           echo $DO_NO_TRACK
-          echo var.DO_NOT_TRACK ${{ vars.DO_NOT_TRACK }}
+          # echo var.DO_NOT_TRACK ${{ vars.DO_NOT_TRACK }}
