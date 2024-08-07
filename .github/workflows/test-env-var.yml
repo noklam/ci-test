@@ -15,5 +15,5 @@ jobs:
       - name: Run Bash script
         run: |
           echo 123
-          echo $DO_NO_TRACK
+          echo $DO_NOT_TRACK
           echo var.DO_NOT_TRACK ${{ vars.DO_NOT_TRACK }}
